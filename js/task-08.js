@@ -3,9 +3,6 @@ form.addEventListener('submit', onFormSubmit);
 
 function onFormSubmit(event) {
   event.preventDefault();
-  //   const {
-  //     elements: { email, password },
-  //   } = event.currentTarget;
 
   const email = event.currentTarget.elements.email.value;
   const password = event.currentTarget.elements.password.value;
